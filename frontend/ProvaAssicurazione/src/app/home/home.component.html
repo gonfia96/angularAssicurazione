@@ -1,0 +1,98 @@
+<!-- <form>
+    <label for="fname">Nome:</label><br>
+    <input type="text" id="fname" name="fname" required><br>
+    <label for="lname">Cognome:</label><br>
+    <input type="text" id="lname" name="lname" required><br>
+    <label for="data">Data di nascita:</label><br>
+    <input type="data" id="data" name="data" required><br>
+    <label for="residence">Città di Residenza:</label><br>
+    <input type="text" id="residence" name="residenza" required><br>
+    <label for="profession">Professione:</label><br>
+    <input type="text" id="profession" name="professione" required><br>
+    <label for="typeL">Tipo di lavoro:</label><br>
+    <select id="typeL" name="tipo lavoro">
+        <option value="autonomo">Autonomo</option>
+        <option value="dipendente">Dipendente</option>
+      </select><br>
+    <label for="stateC">Stato civile:</label><br>
+    <select id="stateC" name="stato civile">
+        <option value="sposato">Sposato</option>
+        <option value="single">Single</option>
+      </select><br>
+    <label for="sex">Sesso:</label><br>
+    <select id="sex" name="sesso">
+        <option value="maschio">Maschio</option>
+        <option value="femmina">Femmina</option>
+      </select><br>
+    <label for="compilareM">Compilare solo se spostato e di sesso maschile</label><br>
+    <label for="ageM">Età moglie:</label><br>
+    <input type="text" id="ageM" name="ageM"><br>
+    <label for="professionM">Professione moglie:</label><br>
+    <input type="text" id="professionM" name="professionM"><br>
+    <label for="compilareMa">Compilare solo se spostato e di sesso femminile</label><br>
+    <label for="ageMa">Età marito:</label><br>
+    <input type="text" id="ageMa" name="ageMa"><br>
+    <label for="professionMa">Professione marito:</label><br>
+    <input type="text" id="professionMa" name="professionMa"><br>
+    <label for="son">Figli:</label><br>
+    <select id="son" name="figli" onchange="isDisabled(value)">
+        <option value="yes">Si</option>
+        <option value="no">No</option>
+      </select><br>
+    <label for="compilare">Compilare solo se inserito Si</label><br>
+    <label for="numberF">Numero figli:</label><br>
+    <input type="text" id="numberF" name="numberF"><br>
+    <label for="ageF">Età figli:</label><br>
+    <input type="text" id="ageF" name="ageF"><br>
+    <label for="professionF">Professione figli:</label><br>
+    <input type="text" id="professionF" name="professionF" ><br>
+    <label for="nucleo">Nucleo Familiare:</label><br>
+    <input type="text" id="nucleo" name="nucleo familiare" required><br>
+    <label for="person">Persona di riferimento:</label><br>
+    <select id="person" name="persona di riferimento">
+        <option value="yesperson">Si</option>
+        <option value="noperson">No</option>
+      </select><br>
+    <label for="copertura">Copertura assicurativa:</label><br>
+    <select id="copertura" name="copertura">
+        <option value="yescopertura">Si</option>
+        <option value="nocopertura">No</option>
+      </select><br>
+    <label for="bisogni">Indicare i bisogni:</label><br>
+    <select id="bisogni" name="bisogni">
+        <option value="bisogniassicurativi">Vorrei indicare i miei bisogni assicurativi</option>
+        <option value="help">Un aiuto a stabilire le mie priorità assicurative </option>
+      </select><br>
+    <label for="patrimonio">Consistenza patrimoniale:</label><br>
+    <select id="patrimonio" name="patrimonio">
+        <option value="inf">Inferiore a 50.000</option>
+        <option value="finoa150">Fino a 150.000</option>
+        <option value="finoa500">Fino a 500.000</option>
+        <option value="finoa1000">Fino a 1.000.000</option>
+        <option value="piu">Più di 1.000.000</option>
+      </select><br>
+    <label for="reddito">Reddito annuo:</label><br>
+    <select id="patrimonio" name="patrimonio">
+        <option value="finoa20">Fino a 20.000</option>
+        <option value="finoa50">Fino a 50.000</option>
+        <option value="finoa100">Fino a 100.000</option>
+        <option value="piu100">Più di 100.000</option>
+      </select><br>
+    <label for="impegni">Impegni finanziari:</label><br>
+    <select id="patrimonio" name="patrimonio">
+        <option value="noimpegni">No</option>
+        <option value="finoa1">Fino a 1.000</option>
+        <option value="finoa5">Fino a 5.000</option>
+        <option value="piu5">Più di 5.000</option>
+      </select><br>
+
+
+
+</form> -->
+
+<button (click)="elaboration()">Elaborazione</button>
+
+<div *ngIf="list">
+
+  IO TI VEDO {{this.list.firstName}}
+</div>
